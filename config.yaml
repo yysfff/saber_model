@@ -1,0 +1,34 @@
+alpha_agent:
+  #粒子个数
+  Num: 100
+  #边界长度
+  Length: 200
+  #粒子速度
+  Velocity: [1,1]
+  #通讯半径
+  R: 8.4
+  #单步运行时间
+  StepTime: 0.03
+  #噪声
+  Noise: 0
+  #以下为论文中的一些参数
+  H : 0.2
+  D : 7
+  K : 1.2
+  a : 5
+  b : 5
+  Epsilon: 0.1
+
+gamma_agent:
+  #粒子个数
+  Num: 1
+  #粒子速度
+  Velocity: [1,0]
+  #粒子初始位置
+  Position: [150,100]
+  #单步运行时间
+  StepTime: 0.03
+  #c1,导航项前系数
+  C1: 0.05
+  #c2，导航项前系数
+  C2: 0.5
